@@ -125,7 +125,7 @@
               <div class="avatarZone">
                 <h3 id="titAvZon">Ayuda a tu Avatar a superarse</h3>
                 <center>
-                  <img class="img-responsive" width="50.5%" id="avatarUser"/>
+                  <img class="img-responsive" src="/packages/images/avatars_curiosity/secuencias/spritenonsondavatar.png" width="60%" id="avatarUser"/>
                 </center>
                 <div class="row">
                   <div class="col-md-12 cal-titulo">
@@ -367,5 +367,5 @@
   {{ HTML::script('/packages/js/curiosity/getspav.js') }}
   {{ HTML::script('/packages/js/curiosity/juegos/juegos_layer.js') }}
   {{ HTML::script('/packages/js/libs/wow/wow.min.js') }}
-
+  @yield('juego_js')
 @stop

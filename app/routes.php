@@ -13,15 +13,6 @@
 */
 
 // Rutas de Acceso al Sistema
-Route::get('/', 'loginController@verPagina');
-Route::post('/login', 'loginController@verPagina');
-Route::post('/verificarUsuario', 'loginController@verificarUsuario');
-Route::post('/remote-username','userController@remoteUsername');
-
-// Rutas de los juegos en Testing
-// Route::group(array('before' => 'auth'), function(){
-  Route::get('/juego/{idActividad}/{nombre}','actividadController@getViewJuego');
-  Route::get('/game-testing', function () {
-    return View::make('juegos.vista_juego_layer');
-  });
-// });
+Route::get('/candyrain6matb1', function () {
+  return View::make('juegos.candyrain6matb1');
+});
